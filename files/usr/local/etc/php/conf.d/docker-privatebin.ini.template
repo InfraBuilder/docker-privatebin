@@ -1,0 +1,2 @@
+upload_max_filesize=${PRIVATEBIN_SIZE_LIMIT}
+post_max_size=${PRIVATEBIN_SIZE_LIMIT}
