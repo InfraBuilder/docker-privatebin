@@ -43,3 +43,8 @@ Here is the list of environment variable ot configure privatebin :
 - PRIVATEBIN_SQLITE_DB_PATH : SqLite database path (Default "/data/db.sq3")
 - PRIVATEBIN_SQLITE_ATTR_PERSISTENT : Enable SqLite persistent connections (Default "true")
 
+For more information on configuration, see https://github.com/PrivateBin/PrivateBin/wiki/Configuration
+
+# Kubernetes example
+
+See [kubernetes.yml](kubernetes.yml)

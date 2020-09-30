@@ -51,4 +51,6 @@ case "$PRIVATEBIN_STORAGE" in
 		;;
 esac
 
+chown www-data:www-data "$PRIVATEBIN_DATA_PATH"
+
 exec $@

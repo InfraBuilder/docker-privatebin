@@ -43,7 +43,7 @@ ENV CONFIG_PATH=/config \
     PRIVATEBIN_FILEUPLOAD_ENABLE=false \
     PRIVATEBIN_BURNAFTERREADING_DEFAULT=false \
     PRIVATEBIN_FORMATTER_DEFAULT=plaintext \
-    PRIVATEBIN_SYNTAX_HIGHLIGHT_THEME=sons-of-obsidian \
+    PRIVATEBIN_SYNTAX_HIGHLIGHT_THEME="" \
     PRIVATEBIN_SIZE_LIMIT=10485760 \
     PRIVATEBIN_TEMPLATE=bootstrap \
     PRIVATEBIN_NOTICE="Note: This is a test service: Data may be deleted anytime. Kittens will die if you abuse this service." \
@@ -66,8 +66,7 @@ ENV CONFIG_PATH=/config \
     PRIVATEBIN_MYSQL_PASSWORD="Y0uMustChang3M3" \
     PRIVATEBIN_MYSQL_ATTR_PERSISTENT=true \
     PRIVATEBIN_SQLITE_DB_PATH="/data/db.sq3" \
-    PRIVATEBIN_SQLITE_ATTR_PERSISTENT=true \
-    END=true
+    PRIVATEBIN_SQLITE_ATTR_PERSISTENT=true
 
 ENTRYPOINT ["/entrypoint.sh"]
 
