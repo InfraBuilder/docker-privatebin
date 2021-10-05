@@ -1,6 +1,6 @@
 FROM php:7-apache
 
-ENV PRIVATEBIN_VERSION=1.3.4
+ENV PRIVATEBIN_VERSION=1.3.5
 
 RUN apt-get update \
     && apt-get install -y \
